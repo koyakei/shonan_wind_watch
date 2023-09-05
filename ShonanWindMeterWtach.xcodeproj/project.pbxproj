@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8B906D2AA71D2100677580 /* ShonanWindMeterWtachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B906C2AA71D2100677580 /* ShonanWindMeterWtachApp.swift */; };
+		BA8B906F2AA71D2100677580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B906E2AA71D2100677580 /* ContentView.swift */; };
+		BA8B90712AA71D2600677580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B90702AA71D2600677580 /* Assets.xcassets */; };
+		BA8B90742AA71D2600677580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B90732AA71D2600677580 /* Preview Assets.xcassets */; };
+		BA8B907A2AA71D2600677580 /* ShonanWindMeterWtach Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA8B90792AA71D2600677580 /* ShonanWindMeterWtach Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA8B907F2AA71D2600677580 /* ShonanWindMeterWtachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B907E2AA71D2600677580 /* ShonanWindMeterWtachApp.swift */; };
+		BA8B90812AA71D2600677580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B90802AA71D2600677580 /* ContentView.swift */; };
+		BA8B90832AA71D2B00677580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B90822AA71D2B00677580 /* Assets.xcassets */; };
+		BA8B90862AA71D2C00677580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B90852AA71D2C00677580 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8B907B2AA71D2600677580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8B90612AA71D2000677580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B90782AA71D2600677580;
+			remoteInfo = "ShonanWindMeterWtach Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA8B908C2AA71D2C00677580 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA8B907A2AA71D2600677580 /* ShonanWindMeterWtach Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA8B90692AA71D2100677580 /* ShonanWindMeterWtach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShonanWindMeterWtach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B906C2AA71D2100677580 /* ShonanWindMeterWtachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShonanWindMeterWtachApp.swift; sourceTree = "<group>"; };
+		BA8B906E2AA71D2100677580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8B90702AA71D2600677580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8B90732AA71D2600677580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA8B90792AA71D2600677580 /* ShonanWindMeterWtach Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShonanWindMeterWtach Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B907E2AA71D2600677580 /* ShonanWindMeterWtachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShonanWindMeterWtachApp.swift; sourceTree = "<group>"; };
+		BA8B90802AA71D2600677580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8B90822AA71D2B00677580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8B90852AA71D2C00677580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8B90662AA71D2100677580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B90762AA71D2600677580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8B90602AA71D2000677580 = {
+			isa = PBXGroup;
+			children = (
+				BA8B906B2AA71D2100677580 /* ShonanWindMeterWtach */,
+				BA8B907D2AA71D2600677580 /* ShonanWindMeterWtach Watch App */,
+				BA8B906A2AA71D2100677580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8B906A2AA71D2100677580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B90692AA71D2100677580 /* ShonanWindMeterWtach.app */,
+				BA8B90792AA71D2600677580 /* ShonanWindMeterWtach Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8B906B2AA71D2100677580 /* ShonanWindMeterWtach */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B906C2AA71D2100677580 /* ShonanWindMeterWtachApp.swift */,
+				BA8B906E2AA71D2100677580 /* ContentView.swift */,
+				BA8B90702AA71D2600677580 /* Assets.xcassets */,
+				BA8B90722AA71D2600677580 /* Preview Content */,
+			);
+			path = ShonanWindMeterWtach;
+			sourceTree = "<group>";
+		};
+		BA8B90722AA71D2600677580 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B90732AA71D2600677580 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA8B907D2AA71D2600677580 /* ShonanWindMeterWtach Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B907E2AA71D2600677580 /* ShonanWindMeterWtachApp.swift */,
+				BA8B90802AA71D2600677580 /* ContentView.swift */,
+				BA8B90822AA71D2B00677580 /* Assets.xcassets */,
+				BA8B90842AA71D2C00677580 /* Preview Content */,
+			);
+			path = "ShonanWindMeterWtach Watch App";
+			sourceTree = "<group>";
+		};
+		BA8B90842AA71D2C00677580 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B90852AA71D2C00677580 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8B90682AA71D2100677580 /* ShonanWindMeterWtach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B908D2AA71D2C00677580 /* Build configuration list for PBXNativeTarget "ShonanWindMeterWtach" */;
+			buildPhases = (
+				BA8B90652AA71D2100677580 /* Sources */,
+				BA8B90662AA71D2100677580 /* Frameworks */,
+				BA8B90672AA71D2100677580 /* Resources */,
+				BA8B908C2AA71D2C00677580 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8B907C2AA71D2600677580 /* PBXTargetDependency */,
+			);
+			name = ShonanWindMeterWtach;
+			productName = ShonanWindMeterWtach;
+			productReference = BA8B90692AA71D2100677580 /* ShonanWindMeterWtach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8B90782AA71D2600677580 /* ShonanWindMeterWtach Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B90892AA71D2C00677580 /* Build configuration list for PBXNativeTarget "ShonanWindMeterWtach Watch App" */;
+			buildPhases = (
+				BA8B90752AA71D2600677580 /* Sources */,
+				BA8B90762AA71D2600677580 /* Frameworks */,
+				BA8B90772AA71D2600677580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShonanWindMeterWtach Watch App";
+			productName = "ShonanWindMeterWtach Watch App";
+			productReference = BA8B90792AA71D2600677580 /* ShonanWindMeterWtach Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8B90612AA71D2000677580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA8B90682AA71D2100677580 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BA8B90782AA71D2600677580 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BA8B90642AA71D2000677580 /* Build configuration list for PBXProject "ShonanWindMeterWtach" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8B90602AA71D2000677580;
+			productRefGroup = BA8B906A2AA71D2100677580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8B90682AA71D2100677580 /* ShonanWindMeterWtach */,
+				BA8B90782AA71D2600677580 /* ShonanWindMeterWtach Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8B90672AA71D2100677580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B90742AA71D2600677580 /* Preview Assets.xcassets in Resources */,
+				BA8B90712AA71D2600677580 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B90772AA71D2600677580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B90862AA71D2C00677580 /* Preview Assets.xcassets in Resources */,
+				BA8B90832AA71D2B00677580 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8B90652AA71D2100677580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B906F2AA71D2100677580 /* ContentView.swift in Sources */,
+				BA8B906D2AA71D2100677580 /* ShonanWindMeterWtachApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B90752AA71D2600677580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B90812AA71D2600677580 /* ContentView.swift in Sources */,
+				BA8B907F2AA71D2600677580 /* ShonanWindMeterWtachApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8B907C2AA71D2600677580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8B90782AA71D2600677580 /* ShonanWindMeterWtach Watch App */;
+			targetProxy = BA8B907B2AA71D2600677580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA8B90872AA71D2C00677580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA8B90882AA71D2C00677580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA8B908A2AA71D2C00677580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShonanWindMeterWtach Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X4RPB4Q33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShonanWindMeterWtach;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = koyakei.ShonanWindMeterWtach;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koyakei.ShonanWindMeterWtach.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BA8B908B2AA71D2C00677580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShonanWindMeterWtach Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X4RPB4Q33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShonanWindMeterWtach;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = koyakei.ShonanWindMeterWtach;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koyakei.ShonanWindMeterWtach.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BA8B908E2AA71D2C00677580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShonanWindMeterWtach/Preview Content\"";
+				DEVELOPMENT_TEAM = X4RPB4Q33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShonanWindMeterWtach;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koyakei.ShonanWindMeterWtach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8B908F2AA71D2C00677580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShonanWindMeterWtach/Preview Content\"";
+				DEVELOPMENT_TEAM = X4RPB4Q33M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShonanWindMeterWtach;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = koyakei.ShonanWindMeterWtach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8B90642AA71D2000677580 /* Build configuration list for PBXProject "ShonanWindMeterWtach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B90872AA71D2C00677580 /* Debug */,
+				BA8B90882AA71D2C00677580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8B90892AA71D2C00677580 /* Build configuration list for PBXNativeTarget "ShonanWindMeterWtach Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B908A2AA71D2C00677580 /* Debug */,
+				BA8B908B2AA71D2C00677580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8B908D2AA71D2C00677580 /* Build configuration list for PBXNativeTarget "ShonanWindMeterWtach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B908E2AA71D2C00677580 /* Debug */,
+				BA8B908F2AA71D2C00677580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8B90612AA71D2000677580 /* Project object */;
+}
