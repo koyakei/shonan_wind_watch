@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var wind: String = "test"
+    @State var wind: Float = 0
     var body: some View {
         VStack {
-            Text(wind).task {
+            Text(String(wind)).task {
                 Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {(time: Timer) in
             
                     URLSession.shared.dataTask(with: URL(string: "https://mysite-906r.onrender.com/wind_speed_hayamas/1.json")!) {(data, response, error) in
@@ -22,7 +22,7 @@ struct ContentView: View {
                         if let response = response as? HTTPURLResponse {
                             
                           if (200...399).contains(response.statusCode) {
-                              wind = (try! JSONSerialization.jsonObject(with: data!) as! [String: Any])["speed_string"] as! String
+                              wind = (try! JSONSerialization.jsonObject(with: data!) as! [String: Any])["wind_speed_meter_per_second"] as! Float
                           } else {
                               print(response.statusCode)
                           }
