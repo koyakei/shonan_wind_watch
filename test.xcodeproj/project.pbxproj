@@ -82,6 +82,7 @@
 		BA425CCD2AB084C30042A9BB /* WindWatchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindWatchWidget.swift; sourceTree = "<group>"; };
 		BA425CCF2AB084C50042A9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA425CD12AB084C50042A9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA425CD92AB0A0480042A9BB /* test-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "test-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 		BA13BCE12AAC3D2400C85108 /* test Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BA425CD92AB0A0480042A9BB /* test-Watch-App-Info.plist */,
 				BA13BCE22AAC3D2400C85108 /* testApp.swift */,
 				BA13BCE42AAC3D2400C85108 /* ContentView.swift */,
 				BA13BCE62AAC3D2600C85108 /* Assets.xcassets */,
@@ -490,6 +492,7 @@
 				DEVELOPMENT_TEAM = X4RPB4Q33M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = koyakei.test;
@@ -521,6 +524,7 @@
 				DEVELOPMENT_TEAM = X4RPB4Q33M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = test;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = koyakei.test;

@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA425C662AB060030042A9BB"
+               BlueprintIdentifier = "BA425CC52AB084C30042A9BB"
                BuildableName = "WindWatchWidgetExtension.appex"
                BlueprintName = "WindWatchWidgetExtension"
                ReferencedContainer = "container:test.xcodeproj">
